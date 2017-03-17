@@ -4,5 +4,10 @@
 /bower_components/
 /node_modules/
 
+# Phonegap
 platforms/
 plugins/
+
+# SASS
+.sass-cache/
+*.css.map
