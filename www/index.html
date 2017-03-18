@@ -44,12 +44,17 @@
 
 <body>
     <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Conectado ao dispositivo</p>
-            <p class="event received">Tá OK</p>
-        </div>
+        <h1>Diga olá</h1>
         
+        <div id="formulario">
+          <p>
+          Diga olá para alguém especial:
+          </p>
+          <p>
+          <input name="nome" type="text" id="nome" required="" placeholder="Nome" />
+          </p>
+          <p><input type="button" value="Say" onclick="sayHello()"></p>
+        </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
